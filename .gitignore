@@ -1,0 +1,62 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ML Specific
+/data/raw/*.jpg
+/data/raw/*.png
+/data/raw/*.jpeg
+/data/processed/
+/models/
+*.h5
+*.pt
+*.pth
+*.pkl
+*.joblib
+checkpoints/
+mlruns/  # MLflow
+
+# Docker
+*.log
+Dockerfile*
+!Dockerfile.variables  # Keep our variable example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+!notebooks/  # But keep notebooks directory
+
+# Datasets (we'll generate synthetic ones)
+*.zip
+*.tar
+*.gz
+
+# Temporary files
+*.tmp
+*.temp
+output/
+*.jpg
+!test_output.jpg  # Keep test output for verification
