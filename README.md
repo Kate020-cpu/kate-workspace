@@ -61,4 +61,4 @@ March 13: API deployment
 March 14: Datathon submission
 
 📝 License
-MIT License - see LICENSE file
+MIT License - see LICENSE file.
